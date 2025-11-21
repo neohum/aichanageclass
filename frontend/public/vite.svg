@@ -1,0 +1,53 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="58" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+  
+  <!-- School Building -->
+  <g transform="translate(30, 35)">
+    <!-- Main Building -->
+    <rect x="5" y="20" width="50" height="35" fill="#FFFFFF" stroke="#1E40AF" stroke-width="2"/>
+    
+    <!-- Roof -->
+    <path d="M 0 20 L 30 5 L 60 20 Z" fill="#1E40AF"/>
+    
+    <!-- Flag Pole -->
+    <line x1="30" y1="5" x2="30" y2="0" stroke="#EF4444" stroke-width="2"/>
+    
+    <!-- Flag -->
+    <path d="M 30 0 L 40 3 L 30 6 Z" fill="#EF4444"/>
+    
+    <!-- Windows -->
+    <rect x="12" y="27" width="8" height="8" fill="#60A5FA"/>
+    <rect x="26" y="27" width="8" height="8" fill="#60A5FA"/>
+    <rect x="40" y="27" width="8" height="8" fill="#60A5FA"/>
+    
+    <rect x="12" y="40" width="8" height="8" fill="#60A5FA"/>
+    <rect x="26" y="40" width="8" height="8" fill="#60A5FA"/>
+    <rect x="40" y="40" width="8" height="8" fill="#60A5FA"/>
+    
+    <!-- Door -->
+    <rect x="23" y="48" width="14" height="7" fill="#1E40AF" rx="1"/>
+  </g>
+  
+  <!-- Students Icons (Small circles) -->
+  <g transform="translate(15, 85)">
+    <circle cx="15" cy="0" r="4" fill="#FCD34D"/>
+    <circle cx="30" cy="0" r="4" fill="#FCD34D"/>
+    <circle cx="45" cy="0" r="4" fill="#FCD34D"/>
+    <circle cx="60" cy="0" r="4" fill="#FCD34D"/>
+    <circle cx="75" cy="0" r="4" fill="#FCD34D"/>
+  </g>
+  
+  <!-- Arrow showing assignment -->
+  <path d="M 50 78 Q 60 70 70 78" stroke="#FCD34D" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FCD34D"/>
+    </marker>
+  </defs>
+  
+  <!-- Text at bottom -->
+  <text x="60" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">AI 배정</text>
+</svg>
